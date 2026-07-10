@@ -1,0 +1,36 @@
+room capacity will be given. print the number of posibilities in which the n travelers can accomodate.
+
+
+
+to do:
+1.hexadecimal code
+
+
+2.number of rooms and its capacity will be given and n number of travelers will come so you need to find the number of possible ways in which the travellers occupy the rooms without leaving a bed open
+
+
+3.Write a program that processes a matrix row by row.
+At each step, the maximum value of the current row is added to all columns of the next row except the column of the maximum itself, where the second maximum is added.\
+Output the maximum element in the last row after all updates.
+
+4.You are given a string S consisting of digits (0–9) and the character '#'.
+The string encodes letters using the following rules:
+Each letter from 'a' to 'z' is mapped to numbers 1 to 26 respectively:
+   * 'a' → 1
+   * 'b' → 2
+   * …
+   * 'z' → 26
+If a number is *two digits and followed by '#'*, it represents a letter:
+   * "10#" → 'j'
+   * "26#" → 'z'
+If a number is *a single digit not followed by '#'*, it also represents a letter:
+   * "1" → 'a'
+   * "2" → 'b'
+The string is always valid and follows the above encoding rules.
+
+5.You are given an integer sequence of length N.
+You repeatedly perform the following operation:
+* If *two adjacent elements are equal, remove **both elements* from the sequence.
+You may perform this operation *any number of times*, and removals may cause new adjacent pairs to form.
+Your task is to determine the *final sequence* after all possible removals have been performed.
+
