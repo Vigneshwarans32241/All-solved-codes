@@ -27,7 +27,7 @@ public class C_Not_All_Covered {
             int L = sc.nextInt();
             int R = sc.nextInt();
             diff[L-1]++;
-            if(R<N) diff[R]--;
+            if(R<N) diff[R]--;u
         }
         int curr = 0;
         int ans = Integer.MAX_VALUE;
