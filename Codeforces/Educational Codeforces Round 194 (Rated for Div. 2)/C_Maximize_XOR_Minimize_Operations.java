@@ -17,7 +17,7 @@ class C_Maximize_XOR_Minimize_Operations{
             if ((sum & mask) != 0 && cur + mask <= x) cur += mask;
         }
         long operations = x - cur;
-        long maxXor = cur ^ (sum - cur);
+        long maxXor = sum;
         System.out.println(maxXor + " " + operations);
     }
 }
